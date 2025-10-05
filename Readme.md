@@ -1,5 +1,9 @@
 # 🤖 Robot Arm Learning with ROS 2, MoveIt 2, and Imitation Learning
 
+Issac
+gazobo
+
+
 This repository documents my learning and research journey combining **ROS 2**, **MoveIt 2**, and **Imitation Learning**.  
 The goal is to understand how to model, configure, and control a robot arm using MoveIt 2 for motion planning — and explore how **learning from demonstrations (LfD)** can enable more adaptive robotic manipulation.
 
