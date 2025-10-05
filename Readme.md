@@ -1,25 +1,31 @@
-# 🤖 Robot Arm Learning with ROS 2 & MoveIt 2
+# 🤖 Robot Arm Learning with ROS 2, MoveIt 2, and Imitation Learning
 
-This repository documents my learning journey with **ROS 2** and **MoveIt 2**, following the *“ROS 2 MoveIt 2 [1-Hour Crash Course]”* tutorial.  
-The goal is to understand how to model, configure, and control a robot arm using MoveIt 2 for motion planning and manipulation.
+This repository documents my learning and research journey combining **ROS 2**, **MoveIt 2**, and **Imitation Learning**.  
+The goal is to understand how to model, configure, and control a robot arm using MoveIt 2 for motion planning — and explore how **learning from demonstrations (LfD)** can enable more adaptive robotic manipulation.
 
 ---
 
 ## 📚 References & Learning Resources
 
-### 🎥 Main Tutorial Video  
-**[ROS 2 MoveIt 2 [1H Crash Course]](https://www.youtube.com/watch?v=-xDyxxRiW7M&t=701s)** by *Robotics Backend*  
+### 🎥 Main Tutorials
 
-### 🧭 Full Course  
+#### 🦾 MoveIt 2
+**[ROS 2 MoveIt 2 [1H Crash Course]](https://www.youtube.com/watch?v=-xDyxxRiW7M&t=701s)** by *Robotics Backend*  
+Learn how to create a robot arm, set up URDF files, and configure MoveIt 2 for motion planning.
+
+#### 🧠 Imitation Learning
+**[Imitation Learning for Robotics (Hands-on Guide)](https://www.youtube.com/watch?v=rl_ozvqQUU8)**  
+Covers the fundamentals of **behavior cloning** and **learning from demonstrations**, applied to robotic tasks.
+
+### 🧭 Extended Course
 **[Complete MoveIt 2 Course](https://rbcknd.com/moveit2)**  
 
-### 💾 Starting Code  
-You can download the base files used in this tutorial here:  
-👉 [Google Drive link](https://drive.google.com/file/d/1i2TB...)  
+### 💾 Starting Code
+👉 [Google Drive link (base project files)](https://drive.google.com/file/d/1i2TB...)  
 
 ---
 
-## ⏱️ Course Timeline (Chapters)
+## ⏱️ MoveIt 2 Course Timeline
 
 | Time | Topic |
 |------|-------|
@@ -36,12 +42,19 @@ You can download the base files used in this tutorial here:
 
 ## 🧠 What I’ve Learned
 
+### 🦾 ROS 2 + MoveIt 2
 - Setting up **ROS 2 and MoveIt 2** environments  
 - Understanding and modifying **URDF** (Unified Robot Description Format) files  
 - Adding **collision and visual elements** to robot models  
-- Using the **MoveIt Setup Assistant** to configure motion planning  
-- Launching **MoveIt demos** for testing robot movement  
-- Basic structure and roles of configuration files in a MoveIt 2 package  
+- Using the **MoveIt Setup Assistant** for configuration  
+- Running **MoveIt demos** for testing robot motion  
+- Understanding configuration files and motion planning pipelines  
+
+### 🧠 Imitation Learning
+- Concept of **Learning from Demonstration (LfD)**  
+- Basics of **Behavior Cloning** using supervised learning  
+- Understanding **state-action mapping** from human or simulated data  
+- Potential integration of MoveIt 2 for motion execution of learned policies  
 
 ---
 
@@ -53,7 +66,8 @@ You can download the base files used in this tutorial here:
 - **Dependencies:**  
   - `ros-humble-desktop-full`  
   - `ros-humble-moveit`  
-  - `rviz2`, `gazebo` *(optional for visualization and simulation)*
+  - `rviz2`, `gazebo` *(optional for visualization and simulation)*  
+  - `python3-ml-libraries` *(for imitation learning experiments)*
 
 ---
 
